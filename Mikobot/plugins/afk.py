@@ -182,7 +182,7 @@ async def check_afk(
 __help__ = """
 » /afk <reason>*:* mark yourself as AFK (away from keyboard).
 
-» brb , !afk <reason>*:* same as the afk command - but not a command.
+» bye , !afk <reason>*:* same as the afk command - but not a command.
 
 ➠ *When marked as AFK, any mentions will be replied to with a message to say you're not available!*
 """
@@ -190,7 +190,7 @@ __help__ = """
 # <================================================ HANDLER =======================================================>
 AFK_HANDLER = DisableAbleCommandHandler("afk", afk, block=False)
 AFK_REGEX_HANDLER = DisableAbleMessageHandler(
-    filters.Regex(r"^(?i:(brb|!afk))( .*)?$"), afk, friendly="afk", block=False
+    filters.Regex(r"^(?i:(bye|!afk))( .*)?$"), afk, friendly="afk", block=False
 )
 NO_AFK_HANDLER = MessageHandler(
     filters.ALL & filters.ChatType.GROUPS, no_longer_afk, block=False
