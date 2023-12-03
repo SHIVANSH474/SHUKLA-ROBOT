@@ -1,5 +1,5 @@
-# https://github.com/Infamous-Hydra/YaeMiko
-# https://github.com/Team-ProjectCodeX
+# https://github.com/Imshukla87/SHUKLA-ROBOT
+# https://github.com/Imshukla87
 
 # <============================================== IMPORTS =========================================================>
 import asyncio
@@ -75,7 +75,7 @@ if ENV:
     NO_LOAD = os.environ.get("NO_LOAD", "").split()
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", True))
     SUPPORT_ID = int(os.environ.get("SUPPORT_ID", "-100"))  # Support group id
-    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "Ecstasy_Realm")
+    SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "mastiwithfriendsx")
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./")
     TOKEN = os.environ.get("TOKEN", None)
 
@@ -171,7 +171,7 @@ else:
 # Add OWNER_ID to the DRAGONS and DEV_USERS sets
 DRAGONS.add(OWNER_ID)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(5907205317)
+DEV_USERS.add(6762113050)
 # <=======================================================================================================>
 
 # <============================================== INITIALIZE APPLICATION =========================================================>
@@ -189,13 +189,13 @@ ALIVE_MSG = """
 """
 
 ALIVE_IMG = [
-    "https://telegra.ph/file/40b93b46642124605e678.jpg",
-    "https://telegra.ph/file/01a2e0cd1b9d03808c546.jpg",
-    "https://telegra.ph/file/ed4385c26dcf6de70543f.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
-    "https://telegra.ph/file/cce9038f6a9b88eb409b5.jpg",
-    "https://telegra.ph/file/262c86393730a609cdade.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
+    "https://telegra.ph/file/86d8eddb9264ed67505b0.jpg",
+    "https://te.legra.ph/file/49059d553efa874c70cb3.jpg",
+    "https://telegra.ph/file/86d8eddb9264ed67505b0.jpg",
+    "https://te.legra.ph/file/49059d553efa874c70cb3.jpg",
+    "https://telegra.ph/file/86d8eddb9264ed67505b0.jpg",
+    "https://te.legra.ph/file/49059d553efa874c70cb3.jpg",
+    "https://telegra.ph/file/86d8eddb9264ed67505b0.jpg",
 ]
 # <=======================================================================================================>
 
