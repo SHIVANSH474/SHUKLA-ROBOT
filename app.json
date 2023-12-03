@@ -1,9 +1,9 @@
 {
-   "name": "Yae Miko",
+   "name": "𝗦𝙴𝙽𝙾𝚁𝙸𝚃𝙰 ✘ 𝗥𝙾𝙱𝙾",
    "description": "A versatile Telegram Group Management Bot.",
-   "logo": "https://telegra.ph/file/4d370b478d90d98709398.jpg",
+   "logo": "https://telegra.ph/file/86d8eddb9264ed67505b0.jpg",
    "keywords": ["telegram", "modular", "group", "management", "Miko"],
-   "repository": "https://github.com/Infamous-Hydra/YaeMiko",
+   "repository": "https://github.com/Imshukla87/SHUKLA-ROBOT",
    "stack": "heroku-22",
    "addons": [
       {
@@ -17,12 +17,12 @@
       "API_ID": {
          "description": "Obtain this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "29308061"
       },
       "API_HASH": {
          "description": "Obtain this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "462de3dfc98fd938ef9c6ee31a72d099"
       },
       "DEL_CMDS": {
          "description": "Set this to True to delete command messages from users without the necessary permissions.",
@@ -36,17 +36,17 @@
       "EVENT_LOGS": {
          "description": "Channel for event logs to note down important bot-level events. Recommend making this public. Example: '-123456'",
          "required": true,
-         "value": ""
+         "value": "-1002018556839"
       },
       "MESSAGE_DUMP": {
          "description": "Support chat ID.",
          "required": true,
-         "value": "-1001511142636"
+         "value": "-1001766825642"
       },
       "MONGO_DB_URI": {
          "description": "Required for MongoDB database connections.",
          "required": true,
-         "value": "mongodb+srv://"
+         "value": "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
       },
       "DATABASE_URL": {
          "description": "Required for SQL database connections.",
@@ -56,17 +56,17 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "5907205317"
+         "value": "6919199044"
       },
       "DEV_USERS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "5907205317"
+         "value": "6762113050"
       },
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "5907205317"
+         "value": "6762113050"
       },
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -75,27 +75,27 @@
       "DEMONS": {
          "description": "A space separated list of user IDs who can use Gban From Your Bot",
          "required": false,
-         "value": "5907205317"
+         "value": "6762113050"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who can not be banned by your Bot",
          "required": false,
-         "value": "5907205317"
+         "value": "6762113050"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "5907205317"
+         "value": "6762113050"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username. Users will reach out for assistance. Example: MyGroupChatUsernameBlah. Avoid pointing to Miko Support to prevent conflicts.",
          "required": true,
-         "value": ""
+         "value": "mastiwithfriendsx"
       },
       "SUPPORT_ID": {
          "description": "Support chat ID.",
          "required": true,
-         "value": "-1001511142636"
+         "value": "-1001766825642"
       },
       "DB_NAME": {
          "description": "Your MongoDB name.",
