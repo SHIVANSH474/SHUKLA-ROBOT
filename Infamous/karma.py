@@ -10,16 +10,16 @@ from Mikobot import BOT_USERNAME, OWNER_ID, SUPPORT_CHAT
 
 # <============================================== CONSTANTS =========================================================>
 START_IMG = [
-    "https://telegra.ph/file/40b93b46642124605e678.jpg",
-    "https://telegra.ph/file/01a2e0cd1b9d03808c546.jpg",
-    "https://telegra.ph/file/ed4385c26dcf6de70543f.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
-    "https://telegra.ph/file/cce9038f6a9b88eb409b5.jpg",
-    "https://telegra.ph/file/262c86393730a609cdade.jpg",
-    "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg",
+    "https://telegra.ph/file/86d8eddb9264ed67505b0.jpg",
+    "https://te.legra.ph/file/49059d553efa874c70cb3.jpg",
+    "https://telegra.ph/file/86d8eddb9264ed67505b0.jpg",
+    "https://te.legra.ph/file/49059d553efa874c70cb3.jpg",
+    "https://telegra.ph/file/86d8eddb9264ed67505b0.jpg",
+    "https://telegra.ph/file/86d8eddb9264ed67505b0.jpg",
+    "https://te.legra.ph/file/49059d553efa874c70cb3.jpg",
 ]
 
-HEY_IMG = "https://telegra.ph/file/33a8d97739a2a4f81ddde.jpg"
+HEY_IMG = "https://te.legra.ph/file/49059d553efa874c70cb3.jpg"
 
 ALIVE_ANIMATION = [
     "https://telegra.ph//file/f9e2b9cdd9324fc39970a.mp4",
@@ -85,8 +85,8 @@ GROUP_START_BTN = [
 
 ALIVE_BTN = [
     [
-        ib(text="UPDATES", url="https://t.me/Hydra_Updates"),
-        ib(text="SUPPORT", url="https://t.me/hydraXsupport"),
+        ib(text="UPDATES", url="https://t.me/ABOUT_SHIVANSHOP"),
+        ib(text="SUPPORT", url="https://t.me/mastiwithfriendsx"),
     ],
     [
         ib(
@@ -97,7 +97,7 @@ ALIVE_BTN = [
 ]
 
 HELP_STRINGS = """
-🫧 *Yae-Miko* 🫧
+🫧 *˹ 𝗦𝙴𝙽𝙾𝚁𝙸𝚃𝙰 ✘ 𝗥𝙾𝙱𝙾 ˼* 🫧
 
 ☉ *Here, you will find a list of all the available commands.*
 
