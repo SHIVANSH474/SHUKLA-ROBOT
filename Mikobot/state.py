@@ -1,5 +1,5 @@
-# https://github.com/Infamous-Hydra/YaeMiko
-# https://github.com/Team-ProjectCodeX
+# https://github.com/Imshukla87/SHUKLA-ROBOT
+# https://github.com/Imshukla87
 
 # <============================================== IMPORTS =========================================================>
 from aiohttp import ClientSession
