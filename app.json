@@ -3,7 +3,7 @@
    "description": "A versatile Telegram Group Management Bot.",
    "logo": "https://telegra.ph/file/86d8eddb9264ed67505b0.jpg",
    "keywords": ["telegram", "modular", "group", "management", "Miko"],
-   "repository": "https://github.com/Imshukla87/SHUKLA-ROBOT",
+   "repository": "https://github.com/SHIVANSH474/SHUKLA-ROBOT",
    "stack": "heroku-22",
    "addons": [
       {
