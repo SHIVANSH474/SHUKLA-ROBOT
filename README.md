@@ -20,14 +20,14 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <p align="center">
-<a href="https://github.com/Imshukla87/SHUKLA-ROBOT/stargazers"><img src="https://img.shields.io/github/stars/Imshukla87/SHUKLA-ROBOT?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/Infamous-Hydra/YaeMiko/network/members"> <img src="https://img.shields.io/github/forks/Imshukla87/SHUKLA-ROBOT?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/Imshukla87/SHUKLA-ROBOT/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/SHIVANSH474/SHUKLA-ROBOT/stargazers"><img src="https://img.shields.io/github/stars/SHIVANSH474/SHUKLA-ROBOT?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/Infamous-Hydra/YaeMiko/network/members"> <img src="https://img.shields.io/github/forks/SHIVANSH474/SHUKLA-ROBOT?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/SHIVANSH474/SHUKLA-ROBOT/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
 <a href="https://pypi.org/project/python-telegram-bot/"> <img src="https://img.shields.io/pypi/v/python-telegram-bot?color=white&label=ptb&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=white&label=telethon&logo=python&logoColor=blue&style=for-the-badge" /></a>
 <a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/Imshukla87/SHUKLA-ROBOT/commits/Infamous-Hydra"> <img src="https://img.shields.io/github/last-commit/Imshukla87/SHUKLA-ROBOT?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/SHIVANSH474/SHUKLA-ROBOT/commits/Infamous-Hydra"> <img src="https://img.shields.io/github/last-commit/SHIVANSH474/SHUKLA-ROBOT?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 </p>
 
 ## ✔️ SETUP
@@ -51,7 +51,7 @@ sudo apt-get install python3-pip -y          # 2. Install Required Packages
 
 sudo pip3 install -U pip          # 3. Upgrade Pip
 
-git clone https://github.com/Imshukla87/SHUKLA-ROBOT && cd YaeMiko           # 4. Clone the Repository
+git clone https://github.com/SHIVANSH474/SHUKLA-ROBOT && cd YaeMiko           # 4. Clone the Repository
 
 pip3 install -U -r requirements.txt          # 5. Install Required Packages
 
@@ -70,7 +70,7 @@ python3 -m Mikobot         # 8. Run the Bot
 <p align="center">Click the button below to deploy YAE ダ MIKO on Heroku and enjoy its enhanced features and user-friendly interface!</p>
 
 <p align="center">
-    <a href="https://heroku.com/deploy?template=https://github.com/Imshukla87/SHUKLA-ROBOT">
+    <a href="https://heroku.com/deploy?template=https://github.com/SHIVANSH474/SHUKLA-ROBOT">
         <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
     </a>
 </p>
