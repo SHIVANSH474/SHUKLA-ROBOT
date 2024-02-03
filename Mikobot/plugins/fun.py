@@ -228,7 +228,7 @@ function(FLIRT_HANDLER)
 function(TRUTH_HANDLER)
 function(DARE_HANDLER)
 
-__mod_name__ = "FUN"
+__mod_name__ = "ғᴜɴ"
 __command_list__ = [
     "roll",
     "toss",
