@@ -349,7 +349,7 @@ ECHO_HANDLER = DisableAbleCommandHandler(
 function(TRANSLATE_HANDLER)
 function(ECHO_HANDLER)
 
-__mod_name__ = "TRANSLATOR"
+__mod_name__ = "ᴛʀᴀɴsʟᴀᴛᴏʀ"
 __command_list__ = ["tr", "tl", "echo"]
 __handlers__ = [TRANSLATE_HANDLER]
 # <================================================ END =======================================================>
