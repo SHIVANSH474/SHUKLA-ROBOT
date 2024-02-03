@@ -175,7 +175,7 @@ async def nsfw_enable_disable(_, message):
 # <=================================================== HELP ====================================================>
 
 
-__mod_name__ = "ANTI-NSFW"
+__mod_name__ = "ᴀɴᴛɪ-ɴsғᴡ"
 
 __help__ = """
 *🔞 Helps in detecting NSFW material and removing it*.
