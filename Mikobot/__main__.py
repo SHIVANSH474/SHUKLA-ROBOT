@@ -418,9 +418,9 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
     await query.answer()
 
     if query.data == "git_source":
-        source_link = "https://github.com/itzshukla"
+        source_link = "@SHIVANSH474"
         message_text = (
-            f"*Here is the link for the public source repo*:\n\n{source_link}"
+            f"*Sorry this bot repo is the private source repo*:\n\n{source_link}"
         )
 
         # Adding the inline button
