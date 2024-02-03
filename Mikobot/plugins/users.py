@@ -276,6 +276,6 @@ function(BROADCAST_HANDLER)
 function(CHATLIST_HANDLER)
 function(CHAT_CHECKER_HANDLER, CHAT_GROUP)
 
-__mod_name__ = "USERS"
+__mod_name__ = "ᴜsᴇʀs"
 __handlers__ = [(USER_HANDLER, USERS_GROUP), BROADCAST_HANDLER, CHATLIST_HANDLER]
 # <================================================ END =======================================================>
