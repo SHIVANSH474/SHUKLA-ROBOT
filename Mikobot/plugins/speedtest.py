@@ -68,7 +68,7 @@ SPEED_TEST_CALLBACKHANDLER = CallbackQueryHandler(
 function(SPEED_TEST_HANDLER)
 function(SPEED_TEST_CALLBACKHANDLER)
 
-__mod_name__ = "SpeedTest"
+__mod_name__ = "sᴘᴇᴇᴅᴛᴇsᴛ"
 __command_list__ = ["speedtest"]
 __handlers__ = [SPEED_TEST_HANDLER, SPEED_TEST_CALLBACKHANDLER]
 # <================================================ END =======================================================>
