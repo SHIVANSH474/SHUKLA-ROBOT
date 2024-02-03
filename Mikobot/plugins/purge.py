@@ -131,5 +131,5 @@ __help__ = """
 
 » /del: Deletes a single message, used as a reply to message."""
 
-__mod_name__ = "PURGE"
+__mod_name__ = "ᴘᴜʀɢᴇ"
 # <================================================ END =======================================================>
