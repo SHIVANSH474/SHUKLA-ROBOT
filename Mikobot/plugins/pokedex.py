@@ -96,12 +96,12 @@ async def callback_query_handler(update: Update, context: ContextTypes.DEFAULT_T
                 f"{stat['stat']['name'].upper()}: {stat['base_stat']}"
                 for stat in pokemon_info["stats"]
             )
-            stats_message = f"•➥ STATS:\n{stats}\n"
+            stats_message = f"•➥ sᴛᴀᴛs:\n{stats}\n"
 
             moves = ", ".join(
                 move_info["move"]["name"] for move_info in pokemon_info["moves"]
             )
-            moves_message = f"•➥ MOVES: {moves}"
+            moves_message = f"•➥ ᴍᴏᴠᴇs: {moves}"
 
             if query.data == "stats":
                 await query.message.reply_text(stats_message)
@@ -139,5 +139,5 @@ __help__ = """
 »  /pokedex < Search > : Gives that pokemon info.
 """
 
-__mod_name__ = "POKEDEX"
+__mod_name__ = "ᴘᴏᴋᴇᴅᴇx"
 # <================================================ END =======================================================>
