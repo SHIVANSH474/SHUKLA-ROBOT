@@ -34,12 +34,12 @@ async def alive(_, message: Message):
     caption = f"""**HEY, I AM {BOT_NAME}**
 
 ━━━━━━ 🌟✿🌟 ━━━━━━
-✪ **CREATOR:** [🄺🄰🅁🄼🄰](https://t.me/ITSZ_SHIVANSH)
+✪ **𝐂ʀᴇᴀᴛᴏʀ:** [𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇](https://t.me/SHIVANSH474)
 
 {library_versions_text}
 
-➲ **PYTHON:** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
-➲ **BOT VERSION:** `2.0`
+➲ **𝐏ʏᴛʜᴏɴ:** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
+➲ **𝐁ᴏᴛ 𝐕ᴇʀsɪᴏɴ:** `2.0`
 ━━━━━━ 🌟✿🌟 ━━━━━━"""
 
     await message.reply_animation(
@@ -53,5 +53,5 @@ async def alive(_, message: Message):
 
 
 # <================================================ NAME =======================================================>
-__mod_name__ = "ALIVE"
+__mod_name__ = "ᴀʟɪᴠᴇ"
 # <================================================ END =======================================================>
