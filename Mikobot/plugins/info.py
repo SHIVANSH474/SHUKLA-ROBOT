@@ -376,7 +376,7 @@ function(BUTTON_HANDLER)
 function(STATS_HANDLER)
 function(INFO_HANDLER)
 
-__mod_name__ = "INFO"
+__mod_name__ = "ɪɴғᴏ"
 __command_list__ = ["info"]
 __handlers__ = [INFO_HANDLER, STATS_HANDLER, DB_CLEANUP_HANDLER, BUTTON_HANDLER]
 # <================================================ END =======================================================>
