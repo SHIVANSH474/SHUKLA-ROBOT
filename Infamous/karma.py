@@ -53,44 +53,44 @@ PM_START_TEXT = "✨ *ɪ ᴀᴍ ˹ 𝗦𝙴𝙽𝙾𝚁𝙸𝚃𝙰 ✘ 𝗥𝙾
 START_BTN = [
     [
         InlineKeyboardButton(
-            text="⇦ ADD ME ⇨",
+            text="⚡️ ᴀᴅᴅ ᴍᴇ ⚡️",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="HELP", callback_data="help_back"),
+        InlineKeyboardButton(text="⚡️ ʜᴇʟᴘ ⚡️", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="DETAILS", callback_data="Miko_"),
-        InlineKeyboardButton(text="AI", callback_data="ai_handler"),
-        InlineKeyboardButton(text="SOURCE", callback_data="git_source"),
+        InlineKeyboardButton(text="⚡️ᴅᴇᴛᴀɪʟs⚡️", callback_data="Miko_"),
+        InlineKeyboardButton(text="⚡️ᴀɪ-ᴘʀᴏ⚡️", callback_data="ai_handler"),
+        InlineKeyboardButton(text="⚡️ᴜᴘᴅᴀᴛᴇs⚡️", url=f"https://t.me/SHIVANSH474"),
     ],
     [
-        InlineKeyboardButton(text="CREATOR", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="⚡️ᴅᴇᴠᴇʟᴏᴘᴇʀ⚡️", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
 GROUP_START_BTN = [
     [
         InlineKeyboardButton(
-            text="⇦ ADD ME ⇨",
+            text="⚡️ ᴀᴅᴅ ᴍᴇ ⚡️",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="CREATOR", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="⚡️sᴜᴘᴘᴏʀᴛ⚡️", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="⚡️ᴄʀᴇᴀᴛᴏʀ⚡️", url=f"tg://user?id={OWNER_ID}"),
     ],
 ]
 
 ALIVE_BTN = [
     [
-        ib(text="UPDATES", url="https://t.me/ABOUT_SHIVANSHOP"),
-        ib(text="SUPPORT", url="https://t.me/mastiwithfriendsx"),
+        ib(text="⚡️ᴜᴘᴅᴀᴛᴇs⚡️", url="https://t.me/SHIVANSH474"),
+        ib(text="⚡️sᴜᴘᴘᴏʀᴛ⚡️", url="https://t.me/mastiwithfriendsx"),
     ],
     [
         ib(
-            text="⇦ ADD ME ⇨",
+            text="⇦ᴀᴅᴅ ᴍᴇ⇨",
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         ),
     ],
@@ -99,7 +99,7 @@ ALIVE_BTN = [
 HELP_STRINGS = """
 🫧 *˹ 𝗦𝙴𝙽𝙾𝚁𝙸𝚃𝙰 ✘ 𝗥𝙾𝙱𝙾 ˼* 🫧
 
-☉ *Here, you will find a list of all the available commands.*
+☉ *ʜᴇʀᴇ, ʏᴏᴜ ᴡɪʟʟ ғɪɴᴅ ᴀ ʟɪsᴛ ᴏғ ᴀʟʟ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.*
 
 ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
 """
