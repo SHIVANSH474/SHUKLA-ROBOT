@@ -1318,7 +1318,7 @@ function(CLEAN_SERVICE_HANDLER)
 function(BUTTON_VERIFY_HANDLER)
 function(WELCOME_MUTE_HELP)
 
-__mod_name__ = "WELCOME"
+__mod_name__ = "ᴡᴇʟᴄᴏᴍᴇ"
 __command_list__ = []
 __handlers__ = [
     NEW_MEM_HANDLER,
