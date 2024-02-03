@@ -79,11 +79,11 @@ async def ai_handler_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            "𝙈𝙊𝙍𝙀 𝙄𝙈𝘼𝙂𝙀 𝙂𝙀𝙉 ➪", callback_data="more_ai_handler"
+                            "⚡️ᴍᴏʀᴇ ɪᴍᴀɢᴇ ɢᴇɴ ⚡️", callback_data="more_ai_handler"
                         ),
                     ],
                     [
-                        InlineKeyboardButton("» 𝙃𝙊𝙈𝙀 «", callback_data="Miko_back"),
+                        InlineKeyboardButton("⚡️ ʜᴏᴍᴇ ⚡️", callback_data="Miko_back"),
                     ],
                 ],
             ),
@@ -116,7 +116,7 @@ async def more_ai_handler_callback(update: Update, context: ContextTypes.DEFAULT
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("⇦ 𝘽𝘼𝘾𝙆", callback_data="ai_handler"),
+                        InlineKeyboardButton("⚡️ ʙᴀᴄᴋ ⚡️", callback_data="ai_handler"),
                     ],
                 ],
             ),
@@ -223,12 +223,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="◁", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="⚡️ʙᴀᴄᴋ⚡️", callback_data="help_back")]]
                     ),
                 )
 
             elif args[0].lower() == "markdownhelp":
-                IMPORTED["exᴛʀᴀs"].markdown_help_sender(update)
+                IMPORTED["⚡️ᴇxᴛʀᴀs⚡️"].markdown_help_sender(update)
             elif args[0].lower().startswith("stngs_"):
                 match = re.match("stngs_(.*)", args[0].lower())
                 chat = dispatcher.bot.getChat(match.group(1))
@@ -249,7 +249,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 parse_mode=ParseMode.MARKDOWN,
             )
             await asyncio.sleep(0.2)
-            guu = await update.effective_message.reply_text("🐾")
+            guu = await update.effective_message.reply_text("⚡️")
             await asyncio.sleep(1.8)
             await guu.delete()  # Await this line
             await update.effective_message.reply_text(
@@ -342,7 +342,7 @@ async def help_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "➲ *HELP SECTION OF* *{}* :\n".format(HELPABLE[module].__mod_name__)
+                "➲ *ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ᴏғ* *{}* :\n".format(HELPABLE[module].__mod_name__)
                 + HELPABLE[module].__help__
             )
             await query.message.edit_text(
@@ -350,7 +350,7 @@ async def help_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="◁", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="⚡️ʙᴀᴄᴋ⚡️", callback_data="help_back")]]
                 ),
             )
 
@@ -399,16 +399,16 @@ async def stats_back(update: Update, context: ContextTypes.DEFAULT_TYPE):
         text = f"""
 𝙎𝙮𝙨𝙩𝙚𝙢 𝙨𝙩𝙖𝙩𝙨 ˹ 𝗦𝙴𝙽𝙾𝚁𝙸𝚃𝙰 ✘ 𝗥𝙾𝙱𝙾 ˼
 ➖➖➖➖➖➖
-UPTIME ➼ {uptime}
-CPU ➼ {cpu}%
-RAM ➼ {mem}%
-DISK ➼ {disk}%
+𝐔ᴘᴛɪᴍᴇ ➼ {uptime}
+𝐂ᴘᴜ ➼ {cpu}%
+𝐑ᴀᴍ ➼ {mem}%
+𝐃ɪsᴋ ➼ {disk}%
 
-PYTHON ➼ {PYTHON_VERSION}
+𝐏ʏᴛʜᴏɴ ➼ {PYTHON_VERSION}
 
-PTB ➼ {PTB_VERSION}
-TELETHON ➼ {TELETHON_VERSION}
-PYROGRAM ➼ {PYROGRAM_VERSION}
+𝐏ᴛʙ ➼ {PTB_VERSION}
+𝐓ᴇʟᴇᴛʜᴏɴ ➼ {TELETHON_VERSION}
+𝐏ʏʀᴏɢʀᴀᴍ ➼ {PYROGRAM_VERSION}
 """
         await query.answer(text=text, show_alert=True)
 
@@ -424,7 +424,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
         )
 
         # Adding the inline button
-        keyboard = [[InlineKeyboardButton(text="◁", callback_data="Miko_back")]]
+        keyboard = [[InlineKeyboardButton(text="⚡️ʙᴀᴄᴋ⚡️", callback_data="Miko_back")]]
         reply_markup = InlineKeyboardMarkup(keyboard)
 
         await query.edit_message_text(
@@ -437,7 +437,7 @@ async def gitsource_callback(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 async def repo(update: Update, context: ContextTypes.DEFAULT_TYPE):
     source_link = "@SHIVANSH474"
-    message_text = f"*Sorry this bot repo is the private source repo*:\n\n{source_link}"
+    message_text = f"*sᴏʀʀʏ ᴛʜɪs ʙᴏᴛ ʀᴇᴘᴏ ɪs ᴛʜᴇ ᴘʀɪᴠᴀᴛᴇ sᴏᴜʀᴄᴇ ʀᴇᴘᴏ*:\n\n{source_link}"
 
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
@@ -452,12 +452,12 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
     if query.data == "Miko_":
         uptime = get_readable_time((time.time() - StartTime))
         message_text = (
-            f"➲ <b>Ai integration.</b>"
-            f"\n➲ <b>Advance management capability.</b>"
-            f"\n➲ <b>Anime bot functionality.</b>"
-            f"\n\n<b>USERS</b> » {sql.num_users()}"
-            f"\n<b>CHATS</b> » {sql.num_chats()}"
-            f"\n\n<b>Click on the buttons below for getting help and info about</b> {BOT_NAME}."
+            f"➲ <b>ᴀɪ ɪɴᴛᴇɢʀᴀᴛɪᴏɴ.</b>"
+            f"\n➲ <b>ᴀᴅᴠᴀɴᴄᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴄᴀᴘᴀʙɪʟɪᴛʏ.</b>"
+            f"\n➲ <b>ᴀɴɪᴍᴇ ʙᴏᴛ ғᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ.</b>"
+            f"\n\n<b>ᴜsᴇʀs</b> » {sql.num_users()}"
+            f"\n<b>ᴄʜᴀᴛs</b> » {sql.num_chats()}"
+            f"\n\n<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʜᴇʟᴘ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ</b> {BOT_NAME}."
         )
         await query.message.edit_text(
             text=message_text,
@@ -467,15 +467,15 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="ABOUT", callback_data="Miko_support"
+                            text="⚡️ᴀʙᴏᴜᴛ⚡️", callback_data="Miko_support"
                         ),
-                        InlineKeyboardButton(text="COMMAND", callback_data="help_back"),
+                        InlineKeyboardButton(text="⚡️ᴄᴏᴍᴍᴀɴᴅ⚡️", callback_data="help_back"),
                     ],
                     [
-                        InlineKeyboardButton(text="INSIDER", callback_data="insider_"),
+                        InlineKeyboardButton(text="⚡️ɪɴsɪᴅᴇʀ⚡️", callback_data="insider_"),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="Miko_back"),
+                        InlineKeyboardButton(text="⚡️ʙᴀᴄᴋ⚡️", callback_data="Miko_back"),
                     ],
                 ]
             ),
@@ -493,14 +493,14 @@ async def Miko_about_callback(update: Update, context: ContextTypes.DEFAULT_TYPE
                 [
                     [
                         InlineKeyboardButton(
-                            text="SUPPORT", url=f"https://t.me/{SUPPORT_CHAT}"
+                            text="⚡️sᴜᴘᴘᴏʀᴛ⚡️", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="DEVELOPER", url=f"tg://user?id={OWNER_ID}"
+                          text="⚡️ᴅᴇᴠᴇʟᴏᴘᴇʀ⚡️", url=f"tg://user?id={OWNER_ID}"
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="◁", callback_data="Miko_"),
+                        InlineKeyboardButton(text="⚡️ʙᴀᴄᴋ⚡️", callback_data="Miko_"),
                     ],
                 ]
             ),
@@ -529,7 +529,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     [
                         [
                             InlineKeyboardButton(
-                                text="HELP",
+                               text="⚡️ʜᴇʟᴘ⚡️",
                                 url="https://t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -545,7 +545,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 [
                     [
                         InlineKeyboardButton(
-                            text="OPEN IN PM",
+                            text="⚡️ᴏᴘᴇɴ ɪɴ ᴘᴍ⚡️",
                             url="https://t.me/{}?start=help".format(
                                 context.bot.username
                             ),
@@ -553,7 +553,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="OPEN HERE",
+                            text="⚡️ᴏᴘᴇɴ ʜᴇʀᴇ⚡️",
                             callback_data="help_back",
                         )
                     ],
@@ -574,7 +574,7 @@ async def get_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="◁", callback_data="help_back")]]
+             [[InlineKeyboardButton(text="⚡️ʙᴀᴄᴋ⚡️", callback_data="help_back")]]
             ),
         )
 
@@ -645,7 +645,7 @@ async def settings_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     [
                         [
                             InlineKeyboardButton(
-                                text="◁",
+                               text="⚡️ʙᴀᴄᴋ⚡️",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -720,7 +720,7 @@ async def get_settings(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     [
                         [
                             InlineKeyboardButton(
-                                text="SETTINGS",
+                              text="⚡️sᴇᴛᴛɪɴɢs⚡️",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
