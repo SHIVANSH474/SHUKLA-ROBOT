@@ -182,10 +182,16 @@ function = dispatcher.add_handler
 
 # <================================================ BOOT MESSAGE=======================================================>
 ALIVE_MSG = """
-💫 *MY SYSTEM IS STARTING, PLEASE WAIT FOR SOMETIME TO COMPLETE BOOT!*
+💫 *✨ㅤ˹ 𝗦𝙴𝙽𝙾𝚁𝙸𝚃𝙰 ✘ 𝗥𝙾𝙱𝙾 ˼ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
+━━━━━━━━━━━━━
+ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ [𝐒𝐇𝐈𝐕𝐀𝐍𝐒𝐇](https://t.me/SHIVANSH474)
+ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: 3.11.5
+ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ: 13.15
+ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: 1.32.1
+ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: 2.0.106
+━━━━━━━━━━━━━*
 
-
-*IF COMMANDS DON'T WORK CHECK THE LOGS*
+*ɪғ ᴄᴏᴍᴍᴀɴᴅs ᴅᴏɴ'ᴛ ᴡᴏʀᴋ ᴄʜᴇᴄᴋ ᴛʜᴇ ʟᴏɢs*
 """
 
 ALIVE_IMG = [
