@@ -5115,7 +5115,7 @@ QUOTES_IMG = [
 __help__ = """
 ⛩ *Anime:*
 
-➠ *Mikobot provides you the best anime-based commands including anime news and much more!*
+➠ *bot provides you the best anime-based commands including anime news and much more!*
 
 ➠ *Commands:*
 
@@ -5137,5 +5137,5 @@ __help__ = """
 » /getgenres - Get list of available Genres
 """
 
-__mod_name__ = "ANIME"
+__mod_name__ = "ᴀɴɪᴍᴇ"
 # <================================================== END =====================================================>
